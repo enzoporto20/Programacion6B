@@ -1,7 +1,7 @@
-import ejemplo from './ejemplo.routes.js';
+import pcgamer from './pcgamer.routes.js';
 import { Router } from 'express';
 const indexroutes = Router();
 
-indexroutes.use('/ejemplo', ejemplo);
+indexroutes.use('/pcgamers', pcgamer);
 
 export default indexroutes;

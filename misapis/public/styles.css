@@ -1,0 +1,46 @@
+:root {
+  --card-h: 320px;
+}
+
+body {
+  background: linear-gradient(180deg, #0f172a 0%, #071029 100%);
+  color: #e6eef8;
+}
+
+.brand {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+  border-radius: 12px;
+}
+
+.pc-card {
+  height: var(--card-h);
+  overflow: hidden;
+}
+
+.pc-image {
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.muted {
+  color: #a9b6c8;
+}
+
+.form-section {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+}
+
+.footer {
+  color: #94a3b8;
+}
+
+.small-muted {
+  font-size: 0.85rem;
+  color: #98a7bb;
+}
