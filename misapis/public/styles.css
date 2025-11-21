@@ -44,3 +44,24 @@ body {
   font-size: 0.85rem;
   color: #98a7bb;
 }
+
+/* ===== VIDEO DE FONDO ===== */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -10;
+  filter: brightness(0.30);
+  /* oscurece el video para que todo se vea mejor */
+}
+
+/* Para asegurar que el contenido quede arriba */
+body,
+main,
+nav {
+  position: relative;
+  z-index: 10;
+}
