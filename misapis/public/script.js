@@ -1,8 +1,6 @@
-// configuración
 const API = '/api/pcgamers';
 const DEFAULT_IMG = 'https://images.unsplash.com/photo-1616596870972-66cd87c9d1b5?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=abcd';
 
-// elementos (verificamos existencia)
 const pcsContainer = document.getElementById('pcs');
 const emptyState = document.getElementById('emptyState');
 const form = document.getElementById('pcForm');
@@ -14,7 +12,6 @@ const confirmBtn = document.getElementById('confirmBtn');
 const confirmModalEl = document.getElementById('confirmModal');
 const modal = (confirmModalEl && typeof bootstrap !== 'undefined') ? new bootstrap.Modal(confirmModalEl) : null;
 
-// utilidades
 const safe = v => (v === undefined || v === null) ? '' : v;
 const showAlert = (msg, type = 'success') => {
   if (!alertBox) return;
